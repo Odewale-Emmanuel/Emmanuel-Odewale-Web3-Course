@@ -1,0 +1,15 @@
+function countB(string, whatToFind) {
+    let total = 0;
+
+    for (let char of string) {
+        if (whatToFind === char) {
+            total += 1;
+        }
+    }
+
+    if (total) {
+        return total
+    } else {
+        console.log("no match found");
+    }
+}
